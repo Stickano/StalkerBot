@@ -4,7 +4,7 @@ Blip Blop this is the reddit stalker bot!
 This is my very first Python script. Created to get a feel for the language.<br> 
 The script uses [PRAW](https://praw.readthedocs.io/en/latest/) and [BeautifulSoup.](https://www.crummy.com/software/BeautifulSoup/)
 
-The script will either comment with a random insult or compliment to the users - depending on your mood I guess.<br>
+This script will look for comments by the users you define and either insult or compliment them with a random message - depending on your mood I guess.
 <br><br>
 
 ### Using the script
