@@ -37,7 +37,7 @@ else:
 soup = BeautifulSoup(requests.get(url).text, 'html.parser')
 fetchInsult = soup.find(container, {'class': containerClass})
 
-botSignature = '\n\n &nbsp; \n\n Blip Blop I\'m the [StalkerBot!](https://github.com/Stickano)'
+botSignature = '\n\n &nbsp; \n\n Blip Blop I\'m the [StalkerBot!](https://github.com/Stickano/StalkerBot)'
 
 sub = bot.subreddit(subreddit)
 comments = sub.stream.comments()
